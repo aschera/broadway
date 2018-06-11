@@ -1,0 +1,18 @@
+.header__primary-title{
+    text-align: center;
+}
+
+.header__primary-title--1{
+    color: $primary-color-light;
+    font-size: 5rem;
+    font-weight:normal;
+}
+
+.header__primary-downloadLink{
+    text-align: center;
+
+    & a{
+        color:$color-link1;
+        font-size: 1.6rem;
+    }
+}

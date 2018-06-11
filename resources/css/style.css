@@ -6,5 +6,25 @@
   box-sizing: inherit; }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 62.5%; }
+
+body {
+  background-color: black; }
+
+.header__primary-title {
+  text-align: center; }
+
+.header__primary-title--1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: normal; }
+
+.header__primary-downloadLink {
+  text-align: center; }
+  .header__primary-downloadLink a {
+    color: aquamarine;
+    font-size: 1.6rem; }
+
+.u-margin-top-small {
+  margin-top: 3rem; }
