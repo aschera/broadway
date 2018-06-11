@@ -6,72 +6,98 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Broadway</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="./resources/css/style.css">
     </head>
+
     <body>
-
-        <header class="header">
-            <div class="header__primary-title">
-                <h1 class="header__primary-title--1 u-margin-top-small">
-                    Discover hidden places in the world around you
+        
+            <header class="header">
+                <h1 class="header__title u-margin-bottom-small">
+                    Broadway Design
                 </h1>
-            </div>
-
-            <p class="header__primary-downloadLink u-margin-top-small">
-                <a href="#" target="_blank" alt="">Download Excursion (Coming soon!)</a>
-            </p>
-
-        </header>
-
-        <main class="u-margin-bottom-small">
-            <div>
-                <video id="video" class="video" autoplay loop muted>
-                    <source src="./resources/videos/excursion.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>  
-            </div>
-
-            <div class="header__secondary">
-                <h2 class="header__secondary--title u-margin-top-small">
-                    Your personal travel guide
+                <nav class="header__nav">
+                    <ul class="header__nav--list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Work</li>
+                        <li>Team</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <main class="main">
+                <h2 class="main__title u-margin-top-small u-margin-bottom-small">
+                    Our Process
                 </h2>
 
-                <p class="header__secondary__description u-margin-top-small">
-                        Excursion remembers places you like, and recommends new points of interest around you.
-                </p>
+                <div class="main__proccess">
+                    <img src="./resources/img/identify.svg" alt="" class="main-img--2">
+                    <h3 class="main__title--small">Identify</h3>
+                    <p class="main__para--1">We focus on the most important details.</p>    
+                </div>
 
-                <img src="./resources/img/camp.jpg" alt="camp" class="header__secondary__image">
+                <div class="main__proccess">
+                    <img src="./resources/img/understand.svg" alt="" class="main-img--3">
+                    <h3 class="main__title--small">Understand</h3>
+                    <p class="main__para--1">We study our projects inside and out.</p>
+                </div>
 
-                <img src="./resources/img/phone.png" alt="camp" class="header__secondary__image2">
+                <div class="main__proccess">
+                    <img src="./resources/img/execute.svg" alt="" class="main-img-13">
+                    <h3 class="main__title--small">Execute</h3>
+                    <p class="main__para--1">We put verything we have into our work.</p>
+                </div>
 
-                <h2 class="header__secondary--title u-margin-top-small">
-                        Coming Soon for iPhone and Android
-                </h2>
+                <div class="main__divider">
+                    <h4 class="main__divider__heading">Designed in New York</h4>
+                </div>
 
-                <p class="header__primary-downloadLink u-margin-top-small">
-                    <a href="#" target="_blank" alt="">
-                        Download Excursion (Coming soon!)
-                    </a>
-                </p>
-            </div>
-        </main>
+                <div class="main__proccess ">
+                    <h3 class="main__title--small">Portfolio</h3>
+                    <p class="main__para--1">Coming Soon</p>
+                </div>
 
-        <footer >
-            <p class="footer__copyrightText">
-                &copy; Excursion
-            </p>
-        </footer>
+                <div class="main__proccess">
+                    <h3 class="main__title--small">Team</h3>
+                    <p class="main__para--1">We're hiring!</p>
+                </div>
+
+                <div class="main__proccess">
+                    <h3 class="main__title--small">Contact</h3>
+                    <p class="main__para--1">
+                        Phone: (555)-555-5555
+                        <br>
+                        Email:test@example.com
+                        <br>
+                        Twitter: @test
+                    </p>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="footer__box">
+                    &copy; Broadway 2016
+                    <ul class="footer__menu">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Work</li>
+                        <li>Team</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </footer>
+            
+        
+        
 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <script> //does not autoplay in Chrome otherwise.
-            document.getElementById('video').play(); 
-        </script>
+        
         <script src="" async defer></script>
     </body>
 </html>
