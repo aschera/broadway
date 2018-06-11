@@ -1,12 +1,14 @@
 .header__primary-title{
     text-align: center;
+
+    &--1{
+        color: $primary-color-light;
+        font-size: 5rem;
+        font-weight:normal;
+    }
 }
 
-.header__primary-title--1{
-    color: $primary-color-light;
-    font-size: 5rem;
-    font-weight:normal;
-}
+
 
 .header__primary-downloadLink{
     text-align: center;
@@ -16,3 +18,21 @@
         font-size: 1.6rem;
     }
 }
+
+.header__secondary{
+    text-align: center;
+
+    &--title{
+        color: $primary-color-light;
+        font-size: 4.2rem;
+        font-weight:300;
+    }
+
+    &__description{
+        color: $color-para1;
+        font-size: 2.1rem;
+        font-weight:300;   
+    }
+
+}
+

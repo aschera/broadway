@@ -14,11 +14,10 @@ body {
 
 .header__primary-title {
   text-align: center; }
-
-.header__primary-title--1 {
-  color: white;
-  font-size: 5rem;
-  font-weight: normal; }
+  .header__primary-title--1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: normal; }
 
 .header__primary-downloadLink {
   text-align: center; }
@@ -26,5 +25,38 @@ body {
     color: aquamarine;
     font-size: 1.6rem; }
 
+.header__secondary {
+  text-align: center; }
+  .header__secondary--title {
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 300; }
+  .header__secondary__description {
+    color: gray;
+    font-size: 2.1rem;
+    font-weight: 300; }
+
 .u-margin-top-small {
   margin-top: 3rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 3rem; }
+
+.video {
+  margin: 0 auto;
+  display: block; }
+
+.header__secondary__image {
+  display: block;
+  margin: 3rem auto; }
+
+.header__secondary__image2 {
+  display: block;
+  margin: 3rem auto; }
+
+footer {
+  text-align: right; }
+
+.footer__copyrightText {
+  color: gray;
+  font-size: 2.1rem; }
